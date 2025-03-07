@@ -1,0 +1,3 @@
+../../Drivers/CMSIS/Include/core_cm55.h:4173:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../ExpressLink/App/app_I-CUBE-ExpressLink.c:36:6:MX_ExpressLink_Init	16	static
+../ExpressLink/App/app_I-CUBE-ExpressLink.c:120:6:MX_ExpressLink_Process	16	static
