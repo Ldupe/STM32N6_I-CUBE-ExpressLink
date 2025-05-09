@@ -87,7 +87,7 @@ STM32N6 boards require binaries to be signed and flashed in a specific way. To d
 * Connect your STM32N6 board to your PC using STLink and make sure that the Expresslink module is plugged into the board
 * Set your STM32N6 board in DEV_BOOT mode, meaning the Boot Pin switch buttons are set as following :
 
-<img src="./Resources/BOOT_pins.jpg" alt="My Image" width="500">
+   <img src="./Resources/DEV-BOOT_pins.jpg" alt="My Image" width="500">
 
 * Hit the Reset button for the Boot Pin switches new position to be taken into account.
 * Open a GitBash window in the *HelloWorld* folder.  
@@ -104,8 +104,9 @@ STM32N6 boards require binaries to be signed and flashed in a specific way. To d
     Properties > C/C++ Build > Settings > MCU/MPU Post build outputs > Check "Convert to binary file" box*
     * Make sure no other software is monopolizing the serial connection.
 
-* * Switch the board to FLASH_BOOT mode, meaning the Boot Pin switch buttons are set as following :
-<img src="./Resources/BOOT_pins.jpg" alt="My Image" width="500">
+* Switch the board to FLASH_BOOT mode, meaning the Boot Pin switch buttons are set as following :  
+
+   <img src="./Resources/FLASH-BOOT_pins.jpg" alt="My Image" width="500">
 
 * Hit the Reset button for the Boot Pin switches new position to be taken into account and start the FW execution.
 
