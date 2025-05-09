@@ -4,7 +4,7 @@
 
 *   **I-CUBE-ExpressLink** is a CMSIS pack for the <a href="https://aws.amazon.com/iot-expresslink/" target="_blank">ExpressLink</a> driver for <a href="https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html" target="_blank">STM32</a> devices. It allows you to create applications that **connects to AWS IoT Core** using <a href="https://devices.amazonaws.com/search?page=1&sv=iotxplnk" target="_blank">ExpressLink modules</a> and to issue **Host Over-The-Air Updates**, in addition of **many other projects**.
 
-*   **Connecting your board to AWS and publishing messages: Hello World project**\
+*   **Connecting your STM32N6 board to AWS and publishing messages: Hello World project**\
     This project allows you to connect your board to AWS cloud service IoT Core through the Expresslink module, and send Hello World messages from the board to AWS that can be obsvered in AWS IoT console.
 
 * STM32N6 devices are **Flashless** MCUs that provide several memory units for your FW to run. In this project we are using the [STM32N6570-DK Discovery kit](https://www.st.com/en/evaluation-tools/stm32n6570-dk.html).
@@ -87,7 +87,7 @@ STM32N6 boards require binaries to be signed and flashed in a specific way. To d
 * Connect your STM32N6 board to your PC using STLink and make sure that the Expresslink module is plugged into the board
 * Set your STM32N6 board in DEV_BOOT mode, meaning the Boot Pin switch buttons are set as following :
 
-<img src="BOOT_pins.jpg" alt="My Image" width="500">
+<img src="./Resources/BOOT_pins.jpg" alt="My Image" width="500">
 
 * Hit the Reset button for the Boot Pin switches new position to be taken into account.
 * Open a GitBash window in the *HelloWorld* folder.  
@@ -105,7 +105,7 @@ STM32N6 boards require binaries to be signed and flashed in a specific way. To d
     * Make sure no other software is monopolizing the serial connection.
 
 * * Switch the board to FLASH_BOOT mode, meaning the Boot Pin switch buttons are set as following :
-<img src="BOOT_pins.jpg" alt="My Image" width="500">
+<img src="./Resources/BOOT_pins.jpg" alt="My Image" width="500">
 
 * Hit the Reset button for the Boot Pin switches new position to be taken into account and start the FW execution.
 
